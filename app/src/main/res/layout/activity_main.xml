@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/firstTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finger print"
+        android:layout_gravity="center"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:id="@+id/fingerprintImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_fingerprint_black_24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/secongTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place finger to complete"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
